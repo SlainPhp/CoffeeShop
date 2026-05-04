@@ -1,8 +1,8 @@
-public class Cofee extends MenuItem implements Preparable{
+public class Coffee extends MenuItem implements Preparable{
     private int strenght;
     private Size size;
 
-    public Cofee(String name, double price, int strenght, Size size) {
+    public Coffee(String name, double price, int strenght, Size size) {
         super(name, price);
         this.strenght = strenght;
     }
